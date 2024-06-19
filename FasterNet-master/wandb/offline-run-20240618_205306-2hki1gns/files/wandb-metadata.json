@@ -1,0 +1,67 @@
+{
+    "os": "Windows-10-10.0.19045-SP0",
+    "python": "3.9.19",
+    "heartbeatAt": "2024-06-18T12:53:06.246497",
+    "startedAt": "2024-06-18T12:53:06.117966",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "-g",
+        "1",
+        "--num_nodes",
+        "1",
+        "-n",
+        "1",
+        "-b",
+        "2",
+        "-e",
+        "1",
+        "--data_dir",
+        "E:\\Thunder_dowmload\\dataset\\imagent",
+        "--pin_memory",
+        "--wandb_project_name",
+        "fasternet",
+        "--model_ckpt_dir",
+        "./model_ckpt/20240618_205242",
+        "--cfg",
+        "cfg/fasternet_t0.yaml"
+    ],
+    "state": "running",
+    "program": "D:\\book\\Bookpyhon\\FasterNet-master\\train_test.py",
+    "codePathLocal": "train_test.py",
+    "codePath": "train_test.py",
+    "host": "DESKTOP-N49N1R5",
+    "username": "Animez",
+    "executable": "D:\\Anaconda\\envs\\fasternet\\python.exe",
+    "cpu_count": 8,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 3147.0,
+        "min": 0.0,
+        "max": 3201.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3147.0,
+            "min": 0.0,
+            "max": 3201.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 275.69237899780273,
+            "used": 90.1684341430664
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 3060 Laptop GPU",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 3060 Laptop GPU",
+            "memory_total": 6442450944
+        }
+    ],
+    "memory": {
+        "total": 15.855525970458984
+    }
+}
