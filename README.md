@@ -9,7 +9,7 @@ git clone https://github.com/JierunChen/FasterNet
 cd FasterNet/
 pip install -r requirements.txt #txt文件包含下载url 要求cu113版本的torch
 ```
-#另需numpy版本小于2.0，cuda113对应torch1.11版本
+#另需numpy版本小于2.0，cuda113对应torch1.11版本  
 启动命令
 ```
 python train_test.py -g 0,1,2,3,4,5,6,7 --num_nodes 1 -n 4 -b 4096 -e 2000 \ #适当降低参数 单gpu是 -g 1
